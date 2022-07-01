@@ -17,7 +17,7 @@ public class FirstTest {
         //options.add_argument("--no-sandbox");
         options.addArguments("--no-sandbox");
         options.addArguments("headless");
-        options.addArguments("disable-gpu");
+        //options.addArguments("disable-gpu");
         driver = new ChromeDriver(options);
         driver.get("https://www.google.com");
         System.out.println("Title of the page is: " + driver.getTitle());
